@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .box{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            background:black;
+            margin:200px auto;
+            position: relative;
+           border: 5px solid #eeeeee;
+           overflow: hidden;
+        }
+        .box img{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+        }
+        .inbox{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            background: rgba(41, 40, 40, 0.274);
+            position: absolute;
+            top:0%;
+            left:0%;
+            transform-origin: right bottom;
+            transform: rotatez(90deg);
+            text-align: center;
+            line-height: 200px;
+            color: rgb(9, 219, 167);
+            transition: all .5s;
+        }
+      .box:hover .inbox{
+            transform: rotateZ(0deg);
+        }
+        .box2{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            margin:200px auto;
+            border:5px solid #eeeeee;
+            position: relative;
+            overflow: hidden;
+        }
+        .box2 img{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+          
+        }
+        .inbox2{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            background: rgba(43, 42, 41, 0.274);
+            position: absolute;
+            top:0%;
+            left:-200px;
+            text-align: center;
+            line-height: 200px;
+            color: rgb(9, 219, 167);
+            transition: all .5s;
+        }
+        .box2:hover .inbox2{
+            left: 0%;
+        }
+        .box3{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            margin:200px auto;
+            border:5px solid #eeeeee;
+            position: relative;
+            overflow: hidden;
+        }
+        .box3 img{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+          
+        }
+        .inbox3{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            background: rgba(41, 40, 39, 0.274);
+            position: absolute;
+            top:0%;
+            left:0%;
+            text-align: center;
+            line-height: 200px;
+            color: rgb(9, 219, 167);
+            transform: scale(0);
+            transition: all .5s;
+        }
+        .box3:hover .inbox3{
+         transform: scale(1);
+        }
+        .box4{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            margin:200px auto;
+            border:5px solid #eeeeee;
+            position: relative;
+         
+        }
+        .box4 img{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+          
+        }
+        .inbox4{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            background: rgba(41, 40, 39, 0.274);
+            position: absolute;
+            top:0%;
+            left:0%;
+            text-align: center;
+            line-height: 200px;
+            color: rgb(9, 219, 167);
+            transition: all .5s;
+           transform: rotate(270deg); 
+         opacity: 0;
+         /* transform: scale(0); */
+        }
+        .box4:hover .inbox4{
+         opacity: 1;
+         /* transform: scale(1); */
+         transform: rotate(0deg);
+        }
+        .box5{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            margin:200px auto;
+            border:5px solid #eeeeee;
+            position: relative;
+            overflow: hidden;
+        }
+        .box5 img{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+          
+        }
+        .inbox5{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            background: rgba(41, 40, 39, 0.274);
+            position: absolute;
+            top:0%;
+            left:0%;
+            text-align: center;
+            line-height: 200px;
+            color: rgb(9, 219, 167);
+            transition: all .5s;
+         opacity: 0;
+        }
+        .box5:hover .inbox5{
+         opacity: 1;
+        }
+        .box6{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            margin:200px auto;
+            border:5px solid #eeeeee;
+            position: relative;
+            overflow: hidden;
+        }
+        .box6 img{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+          
+        }
+       
+        .box6:hover img{
+            transform: scale(1.2);
+        }
+        .boss{
+            width: 1200px;
+           
+            margin:100px auto;
+            display: flex;
+           /* align-content: flex-start; */
+        }
+    </style>
+</head>
+<body>
+    <div class="boss">
+            <div class="box">
+                <img src="./1354254152.jpeg">
+                <div class="inbox">oo</div>
+            </div>
+            <div class="box2">
+                <img src="./1.jpeg">
+                <div class="inbox2">oo</div>
+            </div>
+            <div class="box3">
+                <img src="./2.jpeg">
+                <div class="inbox3">oo</div>
+            </div>
+            <div class="box4">
+                <img src="./3.jpeg">
+                <div class="inbox4">oo</div>
+            </div>
+            <div class="box5">
+                <img src="./4.jpeg">
+                <div class="inbox5">oo</div>
+            </div>
+            <div class="box6">
+                <img src="./5.jpg">
+            
+            </div>
+     </div>
+</body>
+</html>
